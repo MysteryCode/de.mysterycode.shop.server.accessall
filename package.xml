@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.mysterycode.shop.server.accessall" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/package.xsd">
+	<packageinformation>
+		<packagename>VieCode Shop Updateserver: Developer-Access</packagename>
+		<packagename language="de">VieCode Shop Updateserver: Entwickler-Zugang</packagename>
+		<packagedescription><![CDATA[Allows specific groups to fetch every package's information and download every package using the shop's updateservers.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Ermöglicht bestimmten Benutzergruppen den Zugang zu allen Paket-Informationen und allen Downloads über die Updateserver des Shops.]]></packagedescription>
+
+		<version>1.0.0 Beta 1</version>
+		<date>2020-03-30</date>
+
+		<packageurl><![CDATA[https://github.com/MysteryCode/de.mysterycode.shop.server.accessall]]></packageurl>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Florian Gail</author>
+		<authorurl>https://www.mysterycode.de</authorurl>
+	</authorinformation>
+
+	<compatibility>
+		<api version="2019" />
+		<api version="2018" />
+	</compatibility>
+
+	<requiredpackages>
+		<requiredpackage minversion="3.1.12">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="7.0.0">com.viecode.shop</requiredpackage>
+		<requiredpackage minversion="7.0.0">com.viecode.shop.wcf.server</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="5.3.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<instruction type="file" application="shop" />
+
+		<!-- pips -->
+		<instruction type="eventListener" />
+	</instructions>
+</package>
