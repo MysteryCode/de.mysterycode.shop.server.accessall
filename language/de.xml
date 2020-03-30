@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.shop.products.grantFullDownloadAccess"><![CDATA[Vollen Zugriff inklusive Download-Berechtigung auf alle Paketserver und alle Pakete gewähren]]></item>
+	</category>
+</language>
